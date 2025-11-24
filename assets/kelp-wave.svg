@@ -1,0 +1,15 @@
+<svg width="140" height="140" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kelp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ECF8E"/>
+      <stop offset="100%" stop-color="#3EA8FF"/>
+    </linearGradient>
+  </defs>
+
+  <path d="
+    M20 120
+    C50 80, 100 160, 180 90
+    C140 140, 90 60, 20 120
+  "
+  fill="url(#kelp)" opacity="0.9"/>
+</svg>
