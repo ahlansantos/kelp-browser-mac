@@ -24,14 +24,6 @@
   <br><br>
   <img src="https://i.imgur.com/xfie0tE.png" width="700" alt="Kelp yt>
   
-> > *0.0.2mr and older versions look*
-
-<p align="center">
-  <img src="https://i.imgur.com/Loewt61.png" width="700" alt="Kelp Home Screenshot">
-  <br><br>
-  <img src="https://i.imgur.com/4L9BeOu.png" width="700" alt="Kelp running Roblox test">
-</p>
-
 ---
 
 # **About kWP / KELP**
