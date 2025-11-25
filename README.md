@@ -24,7 +24,7 @@
   <br><br>
   <img src="https://i.imgur.com/xfie0tE.png" width="700" alt="Kelp yt>
   
-> *0.0.2mr and older versions look*
+> > *0.0.2mr and older versions look*
 
 <p align="center">
   <img src="https://i.imgur.com/Loewt61.png" width="700" alt="Kelp Home Screenshot">
