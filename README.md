@@ -20,6 +20,13 @@
 > *Current look (alpha) — simple, fluid and ocean-themed.*
 
 <p align="center">
+  <img src="https://i.imgur.com/5SWN8Ng.png" width="700" alt="Kelp new home">
+  <br><br>
+  <img src="https://i.imgur.com/xfie0tE.png" width="700" alt="Kelp yt>
+  
+> *0.0.2mr and older versions look*
+
+<p align="center">
   <img src="https://i.imgur.com/Loewt61.png" width="700" alt="Kelp Home Screenshot">
   <br><br>
   <img src="https://i.imgur.com/4L9BeOu.png" width="700" alt="Kelp running Roblox test">
@@ -42,16 +49,16 @@ Designed to feel lightweight, responsive, and pleasant to use, like a browser ma
 ### Core
 
 * 🗂️ Multi-tab system (buggy)
-* ➕ ⌘T — new tab (not working at all)
-* 🔄 ⌘R — reload (works, but deletes all your tabs, and I mean ALL of them, including the home tab)
-* 🔎 Zoom support (⌘+, ⌘−, ⌘0)
+* ➕ ⌘T — new tab (not working at all in 0.0.2 or under)
+* 🔄 ⌘R — reload (not fully working in 0.0.2 or under)
+* 🔎 Zoom support (⌘+, ⌘−, ⌘0, may work on 0.0.3?)
 * 🧭 Nice loading bar
 * 🧲 Drag-to-reorder tabs
-* 🌊 Animated Home page
+* 🌊 Animated Home page (0.0.3+ no longer uses animated icons on the foot)
 
 ### **Native MacOS Support (in progress)**
 
-* > **Most ⌘ key shortcuts already supported, but MAY NOT work**
+* > **Most ⌘ key shortcuts already supported, but MAY NOT work (may not work on any version under 0.0.2 too)**
 * > **Trackpad swipe navigation coming soon**
 
   * Swipe left → back
@@ -66,15 +73,18 @@ Designed to feel lightweight, responsive, and pleasant to use, like a browser ma
 * ⭐ Favicon and tab metadata
 * ⚙️ Settings page (Had in 0.0.1mr, but it stopped working)
 * 🔒 Privacy mode / temporary session
-* 🧩 Extensions-like micro-modules
+* 🧩 Extensions-like micro-modules (coming on 0.0.4)
 
 ---
 
-# 📦 **Version**
+# 📦 **Version History**
 
-**v24.11.25-0.0.2macrelease**
+*WARNING: Most versions only support Apple Silicon Chips. (M1 or newer)*
 
-> *Early alpha — experimental, expect rapid changes.*
+**v25.11.25-0.0.3macrelease** *main release as of today (25/11/2025)*
+**v24.11.25-0.0.2macrelease** *>> still offers good support*
+
+> *Early alpha — experimental, expect rapid and STRONG changes.*
 
 ---
 
