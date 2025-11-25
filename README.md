@@ -23,7 +23,8 @@
   <img src="https://i.imgur.com/5SWN8Ng.png" width="700" alt="Kelp new home">
   <br><br>
   <img src="https://i.imgur.com/xfie0tE.png" width="700" alt="Kelp yt>
-  
+
+</p>
 ---
 
 # **About kWP / KELP**
