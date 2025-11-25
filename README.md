@@ -1,117 +1,130 @@
-# **KELP, the pronunciation of *kWP***
+# **KELP — the pronunciation of kWP**
 
-### *A minimal, fluid and experimental Mac browser — built from scratch.*
+### A minimal, fluid and experimental macOS browser built from scratch.
 
 <p align="center">
-  <img src="assets/kelp-wave.svg" height="120">
+  <img src="assets/kelp-wave.svg" height="360">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-early%20alpha-ff4f4f?style=for-the-badge&logo=macos">
-  <img src="https://img.shields.io/badge/platform-macOS-1f75fe?style=for-the-badge&logo=apple">
-  <img src="https://img.shields.io/badge/electron-39.0-4bd4ff?style=for-the-badge&logo=electron">
-  <img src="https://img.shields.io/badge/build-stable-4caf50?style=for-the-badge">
+  <img src="https://img.shields.io/badge/status-early%20alpha-4fa3ff?style=for-the-badge&logo=macos">
+  <img src="https://img.shields.io/badge/platform-macOS-7fbaff?style=for-the-badge&logo=apple">
+  <img src="https://img.shields.io/badge/electron-39.0-45d4ff?style=for-the-badge&logo=electron">
+  <img src="https://img.shields.io/badge/build-alpha-63e0c9?style=for-the-badge">
 </p>
 
 ---
 
-## **Screenshots**
-
-> *Current look — ocean-themed, smooth and minimal.*
+## Current Look
 
 <p align="center">
-  <img src="https://i.imgur.com/WAQPU6F.png" width="700" alt="Kelp home">
+  <img src="https://i.imgur.com/BV4KF6B.png" width="720" alt="Kelp Home">
   <br><br>
+  <img src="https://i.imgur.com/3ll09Od.png" width="720" alt="Kelp Settings">
 </p>
 
 ---
 
-# **About kWP / KELP**
+# About
 
-KELP started life as **katWebProfissional**, a tiny, weird web project.
-Somehow it turned into a full mini-browser, now designed specifically for macOS,
-with a clean UI, soft animations and that *“water glass”* vibe.
+KELP began as a tiny experiment (back when it was just **katWebProfissional**) and slowly evolved into a minimal browser handcrafted for macOS.
 
-Still super early-stage, but already functional enough to browse normally.
-Think of it as a little browser surfacing from the ocean and learning to walk.
+It’s built around a simple idea:
+a browser that feels clean, light, and fluid — like interface elements carved out of water and glass.
+
+Still early-stage, still a bit fragile, but already stable enough for daily testing and exploration.
+
+KELP is intentionally **small**, **transparent**, and avoids bloat.
 
 ---
 
-# **Features (current)**
+# Features (current)
 
 ### Core
 
-* 🗂️ Multi-tab system (stable in 0.0.4)
-* ➕ ⌘T — new tab
-* ❌ ⌘Shift+⌘T — reopen closed tab *(still experimental)*
-* 🔄 ⌘R — reload
-* ➡️ Back / Forward support
-* 🔎 Zoom *(⌘+, ⌘−, ⌘0)*
-* 🧭 Loading bar (Not working on 0.0.4+, will be fixed on 0.0.5)
-* 🌊 Ocean-themed Home page
-* -> Settings Window (0.0.4+)
+* Multi-tab system
+* Title + URL sync
+* Custom “kwp://home.kwp” protocol → Kelp Home
+* Clock + Weather widgets on the Home screen
+* Smooth tab highlight animations
+* Basic download popup *(implemented but not hooked fully)*
 
-### Customization
+### Navigation
 
-* -> Widgets (0.0.4+)
+*(mouse interaction works reliably — keyboard shortcuts are improving)*
 
-### Security (current)
+* `⌘T` new tab
+* `⌘W` close tab
+* `⌘R` reload
+* `⌘L` focus URL bar
+* `⌘⇧T` reopen last closed tab
 
-* 🌐 **HTTPS-Only Mode**
-  Automatically redirects all `http://` → `https://`.
+### Visual
 
-* 🧊 **Vault Tabs**
-  All tabs auto-close when you leave the app or change the focus (extra privacy).
-
-* 🚫 **Popup Blocker**
-  Blocks all unwanted popups and new windows.
-
-### macOS Integration
-
-* Full ⌘ shortcut support (Bit buggy, needs to hover or click on a tab or search bar)
-* Ready for DMG distribution (alpha)
-* Trackpad Navigation (Upcoming, maybe on 0.0.5+?)
+* Ocean-themed colors
+* Dark, compact macOS layout
+* Blur-less tabs for stability
+* Minimal chrome-free topbar
 
 ---
 
-# **Upcoming Features**
+# Security (default OFF)
 
-* 🔖 History page (UI)
-* ⚙️ New Settings page
-* ⭐ Tab favicons
-* 🎨 Light/dark adaptive theme
-* 🧩 Mini-modules / extensions (0.0.5+?)
+KELP ships with a configurable “Tor-lite style” security mode.
+All features are **toggle-able** in Settings — off by default to avoid breaking sites.
 
----
+### Features available (but OFF by default):
 
-# **Version History**
+* HTTPS-Only Mode
+* Vault Tabs *(close & reset tabs when KELP loses focus)*
+* Popup Blocking
+* WebRTC Disable *(IP leak prevention)*
+* Tracker Blocking *(common ad/analytics domains)*
+* Anti-Fingerprint tweaks
+* Block 3rd-party cookies
+* Disable Service Workers
+* Disable autoplay audio/video
 
-⚠️ *Supports Apple Silicon (M1+) and Intel Macs.*
-
-* **v25.11.25-0.0.4macrelease** — *Current version*
-  Cleaned security system, added popup-blocker, fixed HTTPS-only, vault tabs stable, entire codebase restructured.
-
-* **v25.11.25-0.0.3macrelease** — UI improvements, animations and layout fixes
-
-* **v24.11.25-0.0.2macrelease** — First semi-usable build
-
-Early alpha — breaking changes expected.
-Like… a lot.
+Security policies are strict, but the goal is to keep the browser usable.
 
 ---
 
-# **Tech Stack**
+# Upcoming
 
-* ⚡ Electron 39
-* 🖥️ BrowserView rendering
-* 🎨 HTML / CSS / JS
-* 🧩 Minimal preload bridge
-* 🐚 macOS window chrome
+* Favicon detection
+* Improved tab animations
+* History page *(implemented, not wired)*
+* Downloads page / manager *(implemented, not wired)*
+* URL suggestions & autocomplete *(implemented, not wired)*
+* macOS trackpad gestures
+* Quick Actions Launcher
 
 ---
 
-# **Open-Source Status**
+# Versioning
 
-KELP is **not open-source yet**.
-The repo exists mainly for version tracking, screenshots and progress logs.
+Current release:
+**v25.11.25-0.0.5macrelease**
 
+Previous:
+
+* v25.11.25-0.0.4
+* v25.11.25-0.0.3
+* v24.11.25-0.0.2
+
+---
+
+# Tech Stack
+
+* Electron 39
+* Chromium
+* Node.js
+* Vanilla JS + CSS
+* Custom preload messaging sandbox
+
+---
+
+# Open-Source Status
+
+KELP is not public/open-source yet.
+This README only documents progress and tracks features during the early builds.
