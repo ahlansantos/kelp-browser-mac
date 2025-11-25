@@ -115,5 +115,3 @@ Like… a lot.
 KELP is **not open-source yet**.
 The repo exists mainly for version tracking, screenshots and progress logs.
 
-
-É só pedir, meu amor.
