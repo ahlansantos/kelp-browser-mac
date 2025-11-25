@@ -1,6 +1,6 @@
 #  **KELP, the pronunciation of *kWP***
 
-### *A minimal, fluid and experimental Mac browser - built from scratch.*
+### *A minimal, fluid and experimental Mac browser — built from scratch.*
 
 <p align="center">
   <img src="assets/kelp-wave.svg" height="120">
@@ -20,77 +20,73 @@
 > *Current look (alpha) — simple, fluid and ocean-themed.*
 
 <p align="center">
-  <img src="https://i.imgur.com/5SWN8Ng.png" width="700" alt="Kelp new home">
+  <img src="https://i.imgur.com/5SWN8Ng.png" width="700" alt="Kelp home">
   <br><br>
-  <img src="https://i.imgur.com/xfie0tE.png" width="700" alt="Kelp yt>
-
+  <img src="https://i.imgur.com/xfie0tE.png" width="700" alt="Kelp YouTube test">
 </p>
+
 ---
 
 # **About kWP / KELP**
 
-KELP began as **katWebProfissional**, a tiny web experiment.
-Over time, it evolved into a **minimal macOS browser**, with a (kind of) clean UI and not so smooth interactions.
+KELP began as **katWebProfissional**, a tiny web experiment.  
+Over time, it evolved into a **minimal macOS browser** with a clean UI and simple, fluid interactions.
 
-Still **early-stage**, but evolving fast.
-Designed to feel lightweight, responsive, and pleasant to use, like a browser made of water and glass.
+Still **early-stage**, but evolving fast — designed to feel lightweight, responsive and pleasant to use, like a browser made of water and glass.
 
 ---
 
 # **Features (current)**
 
 ### Core
+- 🗂️ Multi-tab system (buggy)
+- ➕ ⌘T — new tab *(not working in 0.0.2 and older)*
+- 🔄 ⌘R — reload *(not fully stable under 0.0.2)*
+- 🔎 Zoom support *(⌘+, ⌘−, ⌘0 — may work in 0.0.3+)*
+- 🧭 Loading bar
+- 🧲 Drag-to-reorder tabs
+- 🌊 Animated Home page *(0.0.3+ no longer uses animated icons on the footer)*
 
-* 🗂️ Multi-tab system (buggy)
-* ➕ ⌘T — new tab (not working at all in 0.0.2 or under)
-* 🔄 ⌘R — reload (not fully working in 0.0.2 or under)
-* 🔎 Zoom support (⌘+, ⌘−, ⌘0, may work on 0.0.3?)
-* 🧭 Nice loading bar
-* 🧲 Drag-to-reorder tabs
-* 🌊 Animated Home page (0.0.3+ no longer uses animated icons on the foot)
-
-### **Native MacOS Support (in progress)**
-
-* > **Most ⌘ key shortcuts already supported, but MAY NOT work (may not work on any version under 0.0.2 too)**
-* > **Trackpad swipe navigation coming soon**
-
-  * Swipe left → back
-  * Swipe right → forward
+### Native macOS Support (in progress)
+- Most ⌘ shortcuts supported *(may not work on versions \<0.0.2)*
+- Trackpad swipe navigation (coming soon):
+  - Swipe left → Back  
+  - Swipe right → Forward  
 
 ---
 
 # **Upcoming Features**
 
-* 🔖 Built-in History page (Had in 0.0.1macrelease, but it stopped working)
-* 🎨 Light/dark macOS adaptive theme 
-* ⭐ Favicon and tab metadata
-* ⚙️ Settings page (Had in 0.0.1mr, but it stopped working)
-* 🔒 Privacy mode / temporary session
-* 🧩 Extensions-like micro-modules (coming on 0.0.4)
+- 🔖 Built-in History page  
+- 🎨 Light/dark macOS adaptive theme  
+- ⭐ Favicon + tab metadata  
+- ⚙️ Settings page  
+- 🔒 Privacy mode / temporary session  
+- 🧩 Extensions-like micro-modules *(planned for 0.0.4)*  
 
 ---
 
 # 📦 **Version History**
 
-*WARNING: Most versions only support Apple Silicon Chips. (M1 or newer)*
+⚠️ *Most releases support only Apple Silicon chips (M1 or newer).*
 
-**v25.11.25-0.0.3macrelease** *main release as of today (25/11/2025)*
-**v24.11.25-0.0.2macrelease** *>> still offers good support*
+- **v25.11.25-0.0.3macrelease** — *Main release as of 25/11/2025*  
+- **v24.11.25-0.0.2macrelease** — *Still usable, decent support*
 
-> *Early alpha — experimental, expect rapid and STRONG changes.*
+> Early alpha — rapid changes expected.
 
 ---
 
 # **Tech Stack**
 
-* ⚡ Electron 39
-* 🖥️ BrowserView rendering
-* 🎨 HTML / CSS / JS
-* 🧩 Custom preload API
+- ⚡ Electron 39  
+- 🖥️ BrowserView rendering  
+- 🎨 HTML / CSS / JS  
+- 🧩 Custom preload API  
 
 ---
 
 # **Open-Source Status**
 
-The project is **not open-sourced** yet.
-This README is for preview, documentation and version tracking.
+KELP is **not open-source yet**.  
+This README exists for preview, documentation and version tracking.
