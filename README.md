@@ -1,5 +1,8 @@
 # **KELP — the pronunciation of kWP**
 
+## NOTE: Archived. Won't get updated anymore, focusing on other projects.
+
+
 ### A minimal, fluid and experimental macOS browser built from scratch.
 
 <p align="center">
